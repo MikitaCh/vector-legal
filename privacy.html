@@ -3,95 +3,78 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vector — Privacy Policy</title>
+<title>Nalu — Privacy Policy</title>
 <style>
   :root { color-scheme: light dark; }
   body {
     max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
     font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    color: #1a1a1a; background: #fff;
+    color: #1e1c24; background: #f3f0eb;
   }
   @media (prefers-color-scheme: dark) {
-    body { color: #e8e6e3; background: #121110; }
-    a { color: #d47a4c; }
-    code { background: #262422; }
+    body { color: #f3f0eb; background: #121116; }
+    a { color: #6cc3b8; }
   }
-  h1 { font-size: 1.75rem; margin-bottom: .25rem; }
-  h2 { font-size: 1.15rem; margin-top: 2.25rem; }
-  .updated { color: #777; font-size: .9rem; margin-top: 0; }
+  h1 { font-family: "New York", Georgia, serif; font-weight: 400; font-size: 2rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.1rem; margin-top: 2.25rem; }
+  .updated { color: #77737d; font-size: .9rem; margin-top: 0; }
   ul { padding-left: 1.25rem; }
   li { margin: .4rem 0; }
-  code { background: #f2f0ee; padding: .1rem .35rem; border-radius: 4px; font-size: .9em; }
-  a { color: #b8552a; }
+  a { color: #1c6863; }
 </style>
 </head>
 <body>
 
-<h1>Privacy Policy — Vector</h1>
-<p class="updated">Last updated: 21 July 2026</p>
+<h1>Privacy Policy — Nalu</h1>
+<p class="updated">Last updated: October 15, 2026</p>
 
-<p>Vector is an astrology and numerology app. This policy explains what the app
-does with your information. The short version: your birth details stay on your
-device, and we do not run analytics, advertising, or tracking of any kind.</p>
+<p>Nalu is a mood and symptom journal that helps you notice how your cycle, sleep and days affect how you feel, and warns you before your hard days. It was built to work without an account and without servers. This policy explains what that means in practice.</p>
 
-<h2>What the app stores</h2>
-<p>To calculate your chart and matrix, the app asks for and stores on your device:</p>
+<h2>The short version</h2>
 <ul>
-  <li>your name (optional) and gender (optional);</li>
-  <li>your date of birth, and time of birth if you know it;</li>
-  <li>your place of birth — its name, coordinates and time zone;</li>
-  <li>the life areas you chose to focus on and your mood check-ins;</li>
-  <li>app settings: language, notification preferences, reading streak, and any
-      answer packs you have purchased.</li>
-</ul>
-<p>All of this is kept in the app's local database on your device and in a shared
-container used by the Vector home-screen widget. None of it is sent to us, and we
-have no server that holds a copy. Deleting the app removes it.</p>
-
-<h2>What leaves your device</h2>
-<ul>
-  <li><strong>Place lookup.</strong> When you type your birth place, the text you
-      enter is sent to Apple's geocoding service to turn it into coordinates and a
-      time zone. This is handled by Apple under
-      <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.
-      We never receive the query.</li>
-  <li><strong>Purchases.</strong> Subscriptions and answer packs are processed by
-      Apple through the App Store. The app never sees or stores your payment
-      details — it only learns whether a purchase is active.</li>
-  <li><strong>Text generation.</strong> Vector currently composes all readings on
-      your device. If online generation is enabled in a future version, only
-      already-computed values — zodiac sign numbers, numerology digits, and the
-      current date — would be sent. Your name, exact birth time, coordinates and
-      place name would not be included.</li>
+  <li>Your check-ins, symptoms, notes, notes to yourself, experiments, cycle dates and everything Nalu calculates from them are stored <strong>only on your iPhone</strong>.</li>
+  <li>We don't have servers that receive your entries, and we can't see them.</li>
+  <li>No ads, no tracking, no selling or sharing of personal data.</li>
+  <li>Data from Apple Health is never used for advertising, never sold and never sent to us or anyone else. The copies Nalu keeps for its analysis are part of your encrypted device backup, if you use one.</li>
 </ul>
 
-<h2>What we do not do</h2>
+<h2>Data you enter</h2>
+<p>Mood, energy, feelings, daily factors (for example "movement" or "work stress"), sleep quality, notes, period start dates and your first name (optional) are saved in a local database on your device. If your iPhone backups are enabled, this data is included in your encrypted device backup, which is controlled by Apple and you.</p>
+
+<h2>Apple Health (HealthKit)</h2>
+<p>If you choose to connect Apple Health, Nalu can <strong>read</strong>:</p>
 <ul>
-  <li>No analytics, crash-reporting, or advertising SDKs are present in the app.</li>
-  <li>We do not create accounts and do not ask for your email or phone number.</li>
-  <li>We do not sell, rent, or share personal data with third parties.</li>
-  <li>We do not track you across other apps or websites.</li>
+  <li>Sleep analysis — to compare your mood after short and long nights;</li>
+  <li>Menstrual flow — to find your period start dates;</li>
+  <li>State of Mind — to import mood entries you've logged elsewhere.</li>
+</ul>
+<p>Nalu can <strong>write</strong> your daily check-ins to Apple Health as State of Mind entries.</p>
+<p>Health data is processed on your device only. It is not transmitted to us or to any third party, not used for advertising or data mining, and not stored in iCloud by Nalu. You can change or revoke access at any time in the Health app → Sharing → Apps → Nalu.</p>
+
+<h2>Purchases</h2>
+<p>Subscriptions are processed by Apple. Nalu uses the RevenueCat SDK to receive anonymous information about purchases (which plan, when, in which country) and anonymous events when the subscription screen is shown, with only the kind of place it was opened from (onboarding, settings or inside the app), so we can understand how the app is doing. RevenueCat receives an anonymous app user ID, these events and transaction data from the App Store — never your health data, check-ins, cycle, mood or notes. See <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>.</p>
+
+<h2>Notifications and widgets</h2>
+<p>Reminders are scheduled locally on your iPhone. Widgets read a small summary (today's mood and cycle day) from storage shared between the app and its widget on your device.</p>
+
+<h2>Your control</h2>
+<ul>
+  <li>Export all your entries as a CSV file: Settings → Your data → Export.</li>
+  <li>Delete everything: Settings → Your data → Erase all data, or simply delete the app.</li>
+  <li>Entries Nalu saved to Apple Health stay there until you delete them in the Health app.</li>
 </ul>
 
-<h2>Notifications</h2>
-<p>If you allow notifications, reminders are scheduled locally by your device.
-No push server is involved and no data leaves your phone to deliver them.</p>
+<h2>Not medical advice</h2>
+<p>Nalu is a self-reflection tool, not a medical device. It doesn't diagnose or treat any condition and must not be used for contraception or to plan a pregnancy.</p>
 
 <h2>Children</h2>
-<p>Vector is not directed at children under 13, and we do not knowingly collect
-information from them.</p>
-
-<h2>Your control over your data</h2>
-<p>You can change your birth details at any time in Settings, and reset the app
-completely, which erases the stored profile and all cached readings. Because we
-hold no copy of your data, deleting the app is sufficient to delete everything.</p>
+<p>Nalu is not directed at children under 13 and we don't knowingly collect any data from them.</p>
 
 <h2>Changes</h2>
-<p>If this policy changes, the updated version will be posted at this address with
-a new date above.</p>
+<p>If this policy changes, we'll update the date above and describe the change in the app's release notes.</p>
 
 <h2>Contact</h2>
-<p>Questions about this policy: <a href="mailto:nikitachirkun@gmail.com">nikitachirkun@gmail.com</a></p>
+<p>Questions or requests: <a href="mailto:nikitachirkun@gmail.com">nikitachirkun@gmail.com</a></p>
 
 </body>
 </html>
